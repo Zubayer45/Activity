@@ -1,0 +1,46 @@
+/* Extra Small To Medium */
+
+@media (min-width: 0px) and (max-width: 992px) { 
+    /* navbar section start  */
+    .navbar .nav-link {
+        color: var(--dark-color);
+        background: var(--light-color);
+        width: 60%;
+        margin: 0px auto;
+    }
+    .navbar .dropdown-menu {
+        width: 60%;
+        border-radius: 0;
+    }
+    .navbar .dropdown-menu {
+        background: var(--light-color);
+        margin: 0px auto;
+    }
+    .navbar .dropdown-menu li a {
+        color: var(--dark-color);
+        text-align: center;
+    }
+    
+    /* navbar section end  */
+    /* about me section start */
+    .about-section h3 {
+        line-height: 1.5rem;
+        margin-bottom: 15px;
+    }
+    .about-section p {
+        line-height: 1.5rem;
+        margin-bottom: 15px;
+    }
+    /* about me section end */
+    /* blog section start */
+    .blog-section .content-area p {
+        width: 100%;
+    }
+    /* blog section end */
+    /* contact section start */
+    .contact-section .content-area .address-info form button {
+        margin-left: 0%;
+    }
+    /* contact section end */
+    
+}
